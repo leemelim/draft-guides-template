@@ -1,23 +1,65 @@
-## Contributing to the guides
-Each guide resides in its own repository and is dynamically pulled into kabanero.io via the build process. The content of the guide can be written in HTML, markdown, or AsciiDoc formats- AsciiDoc is preferred. The following front matter variables must be set:
+# Contributing to the Kabanero.io Guides
+Each guide resides in its own repository and is dynamically pulled into kabanero.io via the build process. The content of the guide can be written in HTML, markdown, or AsciiDoc formats- AsciiDoc is preferred. 
+
+## Get Started
+
+1. Create a repository for your guide in the Kabanero-io Org. 
+   * **Make sure `draft-guide-` is appended to the beginning of the repo name**. `draft-` ensures it will not get published to the site. `guide-` ensures our build process will pull in the guide during build.
+   * If you need help opening a repository, create  an issue in this repository.
+
+### Front Matter
+
+The following front matter variables must be set as the first thing in each asciidoc:
 ```
 ---
-permalink: /guides/repository_name/
+permalink: /guides/appsody-getting-started/
 ---
-- layout: guide
-- duration: `time required to complete the guide`
-- description: `one line description of the guide`
-- tags: `(optional) array of tags associated with the guide`
+:page-layout: guide
+:page-duration: 40 minutes
+:page-releasedate: 2019-09-19
+:page-description: Explore how to use the Appsody CLI to create, run, update, deploy, and deliver cloud native microservices.
+:page-tags: ['Appsody', 'Java', 'MicroProfile', 'Collection']
+:page-guide-category: collections
+= Your Guide Title
 ```
-The naming convention for `permalink` is `/guide/` followed by the GitHub repository name (do not include `guide-`)
-   * For example, the appropriate `permalink` for https://github.com/kabanero-io/guide-overview/ would be `/guides/overview/`
-   * This eliminates guide URL conflicts for guides as GitHub won't allow two repositories with the same name.
 
-`layout` could also be `guide-multipane` which renders that code column to show code on the side.
+* **permalink**
+   * The naming convention for `permalink` is `/guide/` followed by the GitHub repository name (do not include `guide-`)
+      * For example, the appropriate `permalink` for https://github.com/kabanero-io/guide-appsody-get-started/ would be `/guides/appsody-get-started/`
+      * This eliminates guide URL conflicts for guides as GitHub won't allow two repositories with the same name.
+   
+* **page-layout**
+   * The layout for the content of the guide. `guide` is the normal layout.
+   * `layout` could also be `guide-multipane`,  which renders that code column to show code on the side.
+* **page-duration**
+   * The expected time it would take a reader to complete the guide.
+* **page-releasedate**
+   * The expected release date of the guide. Do not put this date in the future, its okay if the guide doesn't go out exactly on that date.
+* **page-description**
+   * A description of your guide. What the user would expect to learn upon completing this guide.
+* **page-tags**
+   * Tags related to the guide. See approved tags below.
+* **page-guide-category**
+   * A single category for this guide. The categories map to the headers/rows on the /guides page.
+* **=**
+   * A title for your guide.
+   
+#### Approved Tags
+* Collection
+* Nodejs
+* Express
+* Java
+* MicroProfile
+* Spring
+* Spring Boot
+* Tomcat
+* Appsody
+* CLI
 
-To get started open an issue to get a repository in the kabanero-io github org created for your guide. Make sure `draft-guide-` is appended to the beginning of the repo name. `draft-` ensures it will not get published to the site. `guide-` ensures our build process will pull in the guide during build.
+#### Approved Categories
+* To be determined
 
-### Images for Guides
+### Add Images to your Guide
 
 If you want to add images to your guide you can put them in your guide repository.
 
