@@ -6,6 +6,9 @@ Each guide resides in its own repository and is dynamically pulled into kabanero
 1. Create a repository for your guide in the Kabanero-io Org. 
    * **Make sure `draft-guide-` is appended to the beginning of the repo name**. `draft-` ensures it will not get published to the site. `guide-` ensures our build process will pull in the guide during build.
    * If you need help opening a repository, create  an issue in this repository.
+1. Ensure permissions are set in repository settings
+   * `information-dev` team gets **Maintain** access
+   * `kababero-website-team` team gets **Admin** access
 
 ### Front Matter
 
