@@ -9,6 +9,11 @@ Each guide resides in its own repository and is dynamically pulled into kabanero
 1. Ensure permissions are set in repository settings
    * `information-dev` team gets **Maintain** access
    * `kababero-website-team` team gets **Admin** access
+1. Ensure master branch is protected
+   * Under **Settings -> Branches**
+      * Click **Add Rule** and enter `master` for the master branch
+         * Check the box for: `Require pull request reviews before merging`
+         * Check the box for:  `Include Administrators`
 
 ### Front Matter
 
