@@ -65,7 +65,9 @@ permalink: /guides/appsody-getting-started/
 * CLI
 
 #### Approved Categories
-* To be determined
+* none
+
+More categories will be added
 
 ### Add Images to your Guide
 
