@@ -1,0 +1,2 @@
+# Kabanero.io Guides Release
+There are no "releases" for the Kabanero.io Guides. As detailed in the [Kabanero.io Guides Contribution Guidelines](https://github.com/kabanero-io/draft-guides-template/blob/master/README.md), the guides will only be picked up by the build if the repository that a guide is in begins with `guide-`.  Said another way, a guide whose repository begins with `guide-` is considered "released". Maintainers will decide what guides are released.
