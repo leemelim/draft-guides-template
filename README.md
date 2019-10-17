@@ -75,7 +75,7 @@ If you want to add images to your guide you can put them in your guide repositor
 
 * Image Location
    * Create a dir in your guide repositoy called `assets` and put them in there. 
-      * These images get copied over to the sites `/img/guide/` dir during build. 
+      * These images get copied over to the sites `src/main/content/img/guide/` dir during build. 
 
 * Image Naming
    * You should include the name of your guide in the name your image to prevent image naming conflicts from other guide repositories.
