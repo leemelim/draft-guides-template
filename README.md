@@ -10,7 +10,7 @@ Each guide resides in its own repository and is dynamically pulled into kabanero
    * `information-dev` team gets **Maintain** access
    * `kababero-website-team` team gets **Admin** access
 1. Ensure master branch is protected
-   * Under **Settings -> Branches**
+   * Under **Settings -> Branches** (If you do not see the **Branches** button, you will need to add the README.adoc file to the repo first, then it will appear)
       * Click **Add Rule** and enter `master` for the master branch
          * Check the box for: `Require pull request reviews before merging`
          * Check the box for:  `Include Administrators`
