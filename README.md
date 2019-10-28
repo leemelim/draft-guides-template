@@ -51,7 +51,7 @@ permalink: /guides/appsody-getting-started/
 * **page-guide-category**
    * A single category for this guide. The categories map to the headers/rows on the /guides page.
 * **page-related-guides (Optional)**
-   * An array of strings that are the unique portion of the `permalink` values of related guides. Guides linked in this way will be linked in the `Where to next?` section that can be found at the bottom of a given guide. To link a guide, use its `permalink` value without the leading `/guides/` and the trailing `/`. In the example above, if you wanted to use `page-related-guides` to link to the guide with permalink `/guides/appsody-getting-started/` then you would enter `:page-related-guides: ['appsody-getting-started']`.
+   * An array of strings that are the unique portion of the `permalink` values of related guides. Guides linked in this way will be linked in the `Where to next?` section that can be found at the bottom of a given guide. To link a guide, use its `permalink` value without the leading `/guides/` and the trailing `/`. In the example above, if you wanted to use `page-related-guides` to link to the guide with permalink `/guides/appsody-getting-started/` then you would enter `:page-related-guides: ['appsody-getting-started']`. A maximum of six related guides can be displayed for any given guide.
 * **=**
    * A title for your guide.
 
