@@ -31,6 +31,20 @@ permalink: /guides/appsody-getting-started/
 = Your Guide Title
 ```
 
+If using markdown the same front matter would look like:
+```
+---
+permalink: /guides/appsody-getting-started/
+layout: guide
+title: Your Guide Title
+duration: 40 minutes
+releasedate: 2019-09-19
+description: Explore how to use the Appsody CLI to create, run, update, deploy, and deliver cloud native microservices.
+tags: ['Appsody', 'Java', 'MicroProfile', 'Collection']
+guide-category: collections
+---
+```
+
 * **permalink**
    * The naming convention for `permalink` is `/guide/` followed by the GitHub repository name (do not include `guide-`)
       * For example, the appropriate `permalink` for https://github.com/kabanero-io/guide-appsody-get-started/ would be `/guides/appsody-get-started/`
