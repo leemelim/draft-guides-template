@@ -81,6 +81,7 @@ guide-category: collections
 * CLI
 
 #### Approved Categories
+* basic
 * collections
 * none
 
