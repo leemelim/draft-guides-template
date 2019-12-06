@@ -1,5 +1,5 @@
 # Contributing to the Kabanero.io Guides
-Each guide resides in its own repository and is dynamically pulled into kabanero.io via the build process. The content of the guide can be written in HTML, markdown, or AsciiDoc formats- AsciiDoc is preferred.
+Each guide resides in its own repository and is dynamically pulled into kabanero.io via the build process. The content of the guide can be written in HTML, markdown, or AsciiDoc formats.  Markdown is preferred; use asciidoc only if you will be using features that you cannot do in markdown.
 
 ## Get Started
 
