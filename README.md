@@ -35,7 +35,7 @@ If using markdown the same front matter would look like:
 ```
 ---
 permalink: /guides/appsody-getting-started/
-layout: guide
+layout: guide-markdown
 title: Your Guide Title
 duration: 40 minutes
 releasedate: 2019-09-19
