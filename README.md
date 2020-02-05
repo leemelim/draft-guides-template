@@ -63,10 +63,17 @@ guide-category: collections
    * Tags related to the guide. See approved tags below.
 * **page-guide-category / guide-category**
    * A single category for this guide. The categories map to the headers/rows on the /guides page.
-* (Optional) **page-related-guides**
-   * An array of strings that are a portion of the `permalink` of other related guides. Guides added in this way will be linked in the `Where to next?` section that can be found at the bottom of every guide. To link a guide, use its `permalink` value without the leading `/guides/` and the trailing `/`. For example, if you want to link to the guide with permalink `/guides/appsody-getting-started/` then on your guide's front matter you would append `:page-related-guides: ['appsody-getting-started']`. A maximum of six related guides can be displayed for any given guide.
 * **= / title**
    * A title for your guide.
+* (Optional) **page-related-guides / related-guides**
+   * An array of strings that are a portion of the `permalink` of other related guides. Guides added in this way will be linked in the `Where to next?` section that can be found at the bottom of every guide. To link a guide, use its `permalink` value without the leading `/guides/` and the trailing `/`. For example, if you want to link to the guide with permalink `/guides/appsody-getting-started/` then on your guide's front matter you would append `:page-related-guides: ['appsody-getting-started']`. A maximum of six related guides can be displayed for any given guide.
+   * For markdown source, the front matter requires a `yaml` array, for example:
+
+   ```yaml
+      related-guides:
+      - guide1
+      - guide2
+   ```
 
 #### Approved Tags
 * Collection
